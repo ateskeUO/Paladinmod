@@ -9,6 +9,7 @@ Paladin\powers\CommonPower.class
 Paladin\actions\TemplarsVerdictAction.class
 Paladin\cards\PaladinRareSkill.class
 Paladin\cards\PaladinSecondMagicNumberSkill.class
+Paladin\cards\Prayer.class
 Paladin\characters\Paladin.class
 Paladin\cards\PaladinUncommonPower.class
 Paladin\cards\AbstractPaladinCard.class

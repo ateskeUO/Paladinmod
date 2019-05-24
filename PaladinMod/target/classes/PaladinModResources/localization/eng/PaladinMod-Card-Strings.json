@@ -76,5 +76,9 @@
   "PaladinMod:TemplarsVerdict": {
     "NAME": "Templar's Verdict",
     "DESCRIPTION": "Deal !D! damage. NL If you have !M! or more Devotion, NL deal that much plus 15 instead."
+  },
+  "PaladinMod:Prayer": {
+    "NAME": "Prayer",
+    "DESCRIPTION": "Gain !M! Dexterity until end of turn"
   }
 }
