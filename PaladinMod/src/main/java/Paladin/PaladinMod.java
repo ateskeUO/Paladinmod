@@ -141,6 +141,7 @@ public class PaladinMod implements
     }
     //Pretty sure this could have been one line but fuck it I'm new and this was the structure I was handed.
     public static void setModID(String ID) {
+
         modID = ID;
     }
 
