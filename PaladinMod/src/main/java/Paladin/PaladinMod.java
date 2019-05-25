@@ -273,6 +273,7 @@ public class PaladinMod implements
         BaseMod.addCard(new WakeOfAshes());
         BaseMod.addCard(new HolySmite());
         BaseMod.addCard(new TemplarsVerdict());
+        BaseMod.addCard(new Prayer());
 
         logger.info("Making sure the cards are unlocked.");
         // Unlock the cards
@@ -296,6 +297,8 @@ public class PaladinMod implements
         UnlockTracker.unlockCard(WakeOfAshes.ID);
         UnlockTracker.unlockCard(HolySmite.ID);
         UnlockTracker.unlockCard(TemplarsVerdict.ID);
+        UnlockTracker.unlockCard(Prayer.ID);
+
         logger.info("Done adding cards!");
     }
 
