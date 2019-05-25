@@ -25,16 +25,17 @@ public class Prayer extends CustomCard {
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
 
     //Stat value variable declarations
-    private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.COMMON;
+    private static final AbstractCard.CardRarity RARITY = CardRarity.COMMON;
     private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.SELF;
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.SKILL;
     public static final AbstractCard.CardColor COLOR = Paladin.Enums.COLOR_GRAY;
     private static final int COST = 0;
     private static final int DEX = 2;
-    private static final int UPGRADE_PLUS_DEX = 7;
+    private static final int UPGRADE_PLUS_DEX = 2;
 
     public Prayer() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
+        this.magicNumber = this.baseMagicNumber = DEX;
     }
 
 
@@ -48,10 +49,14 @@ public class Prayer extends CustomCard {
 
     }
 
+    @Override
+    public AbstractCard makeCopy() {
+        return new Prayer();
+    }
 
     @Override
     public void upgrade() {
-        if (!upgraded) {
+        if (!this.upgraded) {
             upgradeName();
             upgradeMagicNumber(UPGRADE_PLUS_DEX);
         }

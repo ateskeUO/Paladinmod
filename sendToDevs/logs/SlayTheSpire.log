@@ -1,0 +1,180 @@
+04:10:18.960 INFO desktop.DesktopLauncher> time: 1558757418959
+04:10:18.974 INFO desktop.DesktopLauncher> version: 2019-01-23
+04:10:18.974 INFO desktop.DesktopLauncher> libgdx:  1.9.5
+04:10:18.975 INFO desktop.DesktopLauncher> default_locale: en_US
+04:10:18.977 INFO desktop.DesktopLauncher> default_charset: windows-1252
+04:10:18.978 INFO desktop.DesktopLauncher> default_encoding: windows-1252
+04:10:18.979 INFO desktop.DesktopLauncher> java_version: 1.8.0_201
+04:10:18.980 INFO desktop.DesktopLauncher> os_arch: amd64
+04:10:18.981 INFO desktop.DesktopLauncher> os_name: Windows 10
+04:10:18.982 INFO desktop.DesktopLauncher> os_version: 10.0
+04:10:18.983 INFO core.SystemStats> MEMORY STATS:
+Free Memory: 104Mb
+Max Memory: 3,616Mb
+Allocated Memory: 156Mb
+Unallocated Memory: 3,460Mb
+Total Free Memory: 3,564Mb
+Used Memory: 51Mb
+
+04:10:18.988 INFO core.SystemStats> DISK STATS:
+Total Space: 242,868Mb
+Usable Space: 41,270Mb
+Free Space: 41,270Mb
+
+04:10:19.046 INFO core.DisplayConfig> Reading info.displayconfig
+04:10:19.049 INFO core.DisplayConfig> File info.displayconfig not found, creating with defaults.
+04:10:19.050 INFO core.DisplayConfig> Creating new config with default values...
+04:10:19.063 INFO core.DisplayConfig> DisplayConfig successfully read.
+04:10:19.064 INFO desktop.DesktopLauncher> Settings successfully loaded
+04:10:19.064 INFO desktop.DesktopLauncher> Launching application...
+04:10:19.432 INFO ststwitch.TwitchConfig> The 'twitchconfig.txt' does not exist, creating it from this example : twitchconfig.txt
+04:10:19.665 INFO steam.SteamIntegration> [FAILURE] Steam API failed to initialize correctly.
+04:10:19.669 INFO core.CardCrawlGame> New player, no migration.
+04:10:19.699 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSSaveSlots
+04:10:19.705 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSSaveSlots
+04:10:19.708 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSaveSlots
+04:10:19.711 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSPlayer
+04:10:19.715 INFO helpers.AsyncSaver> Enqueue: qsize=1 file=preferences\STSPlayer
+04:10:19.716 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSaveSlots
+04:10:19.717 INFO core.Settings> Initializing display settings...
+04:10:19.717 INFO helpers.FileSaver> Dequeue: qsize=1 file=preferences\STSPlayer
+04:10:19.717 INFO core.DisplayConfig> Reading info.displayconfig
+04:10:19.718 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSPlayer
+04:10:19.718 INFO core.DisplayConfig> DisplayConfig successfully read.
+04:10:19.719 INFO core.Settings> Initializing sound settings...
+04:10:19.722 INFO helpers.AsyncSaver> Enqueue: qsize=1 file=preferences\STSSound
+04:10:19.723 INFO helpers.AsyncSaver> Enqueue: qsize=2 file=preferences\STSSound
+04:10:19.723 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSPlayer
+04:10:19.724 INFO core.Settings> Initializing game settings...
+04:10:19.724 INFO helpers.FileSaver> Dequeue: qsize=2 file=preferences\STSPlayer
+04:10:19.725 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSPlayer
+04:10:19.725 INFO helpers.AsyncSaver> Enqueue: qsize=2 file=preferences\STSGameplaySettings
+04:10:19.726 INFO helpers.AsyncSaver> Enqueue: qsize=3 file=preferences\STSDaily
+04:10:19.727 INFO helpers.AsyncSaver> Enqueue: qsize=4 file=preferences\STSGameplaySettings
+04:10:19.736 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSPlayer
+04:10:19.738 INFO helpers.FileSaver> Dequeue: qsize=4 file=preferences\STSSound
+04:10:19.738 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSound
+04:10:19.742 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSound
+04:10:19.743 INFO helpers.FileSaver> Dequeue: qsize=3 file=preferences\STSSound
+04:10:19.743 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSound
+04:10:19.756 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSound
+04:10:19.757 INFO helpers.FileSaver> Dequeue: qsize=2 file=preferences\STSGameplaySettings
+04:10:19.758 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSGameplaySettings
+04:10:19.763 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSGameplaySettings
+04:10:19.764 INFO helpers.FileSaver> Dequeue: qsize=1 file=preferences\STSDaily
+04:10:19.764 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSDaily
+04:10:19.768 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSDaily
+04:10:19.769 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSGameplaySettings
+04:10:19.770 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSGameplaySettings
+04:10:19.782 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSGameplaySettings
+04:10:19.806 INFO localization.LocalizedStrings> Loc Strings load time: 63ms
+04:10:19.852 INFO audio.MusicMaster> Music Volume: 0.5
+04:10:19.856 INFO audio.SoundMaster> Sound Effect Volume: 0.5
+04:10:19.857 INFO audio.SoundMaster> Loaded 360 Sound Effects
+04:10:19.857 INFO audio.SoundMaster> SFX load time: 2ms
+04:10:20.951 INFO cards.AbstractCard> Card Image load time: 1079ms
+04:10:22.450 INFO helpers.ImageMaster> Texture load time: 1491ms
+04:10:22.533 INFO helpers.FontHelper> Font load time (Map Fonts): 26ms
+04:10:22.723 INFO helpers.FontHelper> Font load time (Kreon Standard): 189ms
+04:10:23.186 INFO helpers.FontHelper> Font load time (The rest of it): 463ms
+04:10:23.229 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSAchievements
+04:10:23.229 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSAchievements
+04:10:23.230 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSAchievements
+04:10:23.230 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSUnlocks
+04:10:23.231 INFO helpers.AsyncSaver> Enqueue: qsize=1 file=preferences\STSUnlockProgress
+04:10:23.232 INFO helpers.AsyncSaver> Enqueue: qsize=2 file=preferences\STSSeenCards
+04:10:23.232 INFO helpers.AsyncSaver> Enqueue: qsize=3 file=preferences\STSBetaCardPreference
+04:10:23.233 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSAchievements
+04:10:23.234 INFO helpers.FileSaver> Dequeue: qsize=3 file=preferences\STSUnlocks
+04:10:23.234 INFO helpers.AsyncSaver> Enqueue: qsize=3 file=preferences\STSSeenBosses
+04:10:23.234 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSUnlocks
+04:10:23.235 INFO helpers.AsyncSaver> Enqueue: qsize=4 file=preferences\STSSeenRelics
+04:10:23.236 INFO unlock.UnlockTracker> RED UNLOCKS:   0/9
+04:10:23.236 INFO unlock.UnlockTracker> GREEN UNLOCKS: 0/9
+04:10:23.236 INFO unlock.UnlockTracker> BLUE UNLOCKS: 0/9
+04:10:23.236 INFO unlock.UnlockTracker> RELIC UNLOCKS: 0/18
+04:10:23.238 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSUnlocks
+04:10:23.238 INFO helpers.FileSaver> Dequeue: qsize=4 file=preferences\STSUnlockProgress
+04:10:23.239 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSUnlockProgress
+04:10:23.243 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSUnlockProgress
+04:10:23.243 INFO helpers.FileSaver> Dequeue: qsize=3 file=preferences\STSSeenCards
+04:10:23.243 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenCards
+04:10:23.247 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenCards
+04:10:23.248 INFO helpers.FileSaver> Dequeue: qsize=2 file=preferences\STSBetaCardPreference
+04:10:23.248 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSBetaCardPreference
+04:10:23.252 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSBetaCardPreference
+04:10:23.252 INFO helpers.FileSaver> Dequeue: qsize=1 file=preferences\STSSeenBosses
+04:10:23.253 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenBosses
+04:10:23.257 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenBosses
+04:10:23.257 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSSeenRelics
+04:10:23.258 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenRelics
+04:10:23.261 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenRelics
+04:10:23.326 INFO unlock.UnlockTracker> CARDS SEEN:    0/0
+04:10:23.363 INFO unlock.UnlockTracker> RELICS SEEN:   0/0
+04:10:24.023 INFO cards.AbstractCard> WARNING: Card Ritual Dagger has lots of text
+04:10:24.024 INFO cards.AbstractCard> WARNING: Card Ritual Dagger has lots of text
+04:10:24.113 INFO panels.TopPanel> Twitch Integration enabled due to presence of 'twitch.properties` file.
+04:10:24.115 INFO panels.TopPanel> Not starting twitch integration because enabled=false
+04:10:24.389 INFO cards.AbstractCard> WARNING: Card Pride has lots of text
+04:10:24.389 INFO cards.AbstractCard> WARNING: Card Pride has lots of text
+04:10:24.390 INFO helpers.CardLibrary> Card load time: 1026ms with 283 cards
+04:10:24.677 INFO helpers.RelicLibrary> Relic load time: 286ms
+04:10:24.679 INFO input.InputHelper> Setting input processor to Scroller
+04:10:24.680 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSInputSettings
+04:10:24.680 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSInputSettings
+04:10:24.681 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSInputSettings
+04:10:24.682 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSTips
+04:10:24.684 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSInputSettings
+04:10:24.685 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSTips
+04:10:24.685 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSTips
+04:10:24.689 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSTips
+04:10:24.763 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSSeenRelics
+04:10:24.764 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSSeenRelics
+04:10:24.764 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenRelics
+04:10:24.766 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSDataVagabond
+04:10:24.772 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenRelics
+04:10:24.773 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSDataVagabond
+04:10:24.773 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSDataVagabond
+04:10:24.776 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSDataVagabond
+04:10:24.876 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSSeenRelics
+04:10:24.877 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSSeenRelics
+04:10:24.877 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenRelics
+04:10:24.879 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSDataTheSilent
+04:10:24.889 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenRelics
+04:10:24.889 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSDataTheSilent
+04:10:24.890 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSDataTheSilent
+04:10:24.893 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSDataTheSilent
+04:10:25.001 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSSeenRelics
+04:10:25.002 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSSeenRelics
+04:10:25.002 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenRelics
+04:10:25.005 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSDataDefect
+04:10:25.022 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSSeenRelics
+04:10:25.023 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSDataDefect
+04:10:25.023 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSDataDefect
+04:10:25.026 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSDataDefect
+04:10:25.099 INFO helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSInputSettings_Controller
+04:10:25.100 INFO helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSInputSettings_Controller
+04:10:25.101 INFO helpers.File> Attempting to save file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSInputSettings_Controller
+04:10:25.101 INFO core.CardCrawlGame> [GC] BEFORE: 50913296
+04:10:25.199 INFO core.CardCrawlGame> [GC] AFTER: 18068128
+04:10:25.203 INFO helpers.File> Successfully saved file=C:\Users\askye\Documents\my_mods\Paladinmod\preferences\STSInputSettings_Controller
+04:10:25.203 INFO controller.CInputHelper> [CONTROLLER] Utilizing DirectInput
+04:10:25.255 INFO controller.CInputHelper> [CONTROLLER] No controllers detected
+04:10:33.067 INFO unlock.UnlockTracker> RED UNLOCKS:   0/9
+04:10:33.068 INFO unlock.UnlockTracker> GREEN UNLOCKS: 0/9
+04:10:33.068 INFO unlock.UnlockTracker> BLUE UNLOCKS: 0/9
+04:10:33.069 INFO unlock.UnlockTracker> RELIC UNLOCKS: 0/18
+04:10:33.069 INFO unlock.UnlockTracker> CARDS SEEN:    0/283
+04:10:33.069 INFO unlock.UnlockTracker> RELICS SEEN:   3/161
+04:10:33.070 INFO compendium.CardLibraryScreen> Initializing card library screen.
+04:10:33.151 INFO characters.CharacterManager> Successfully recreated IRONCLAD
+04:10:33.261 INFO characters.CharacterManager> Successfully recreated THE_SILENT
+04:10:33.351 INFO characters.CharacterManager> Successfully recreated DEFECT
+04:10:33.376 INFO saveAndContinue.SaveAndContinue> IRONCLAD save does NOT exist!
+04:10:33.378 INFO saveAndContinue.SaveAndContinue> THE_SILENT save does NOT exist!
+04:10:33.378 INFO saveAndContinue.SaveAndContinue> DEFECT save does NOT exist!
+04:10:34.797 INFO mainMenu.MainMenuScreen> No saves detected, opening Save Slot screen automatically.
+04:10:42.069 INFO core.CardCrawlGame> PAUSE()
+04:10:42.070 INFO core.CardCrawlGame> Game shutting down...
+04:10:42.070 INFO helpers.FileSaver> Save thread interrupted!
+04:10:42.070 INFO helpers.FileSaver> Save thread will die now.
