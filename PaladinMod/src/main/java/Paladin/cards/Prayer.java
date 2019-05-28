@@ -1,7 +1,11 @@
 package Paladin.cards;
 
+
 import Paladin.PaladinMod;
 import Paladin.characters.Paladin;
+import basemod.BaseMod;
+import basemod.interfaces.PreMonsterTurnSubscriber;
+import basemod.patches.com.megacrit.cardcrawl.actions.GameActionManager.PreMonsterTurnHook;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -11,6 +15,7 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.DexterityPower;
+import com.megacrit.cardcrawl.powers.LoseDexterityPower;
 
 
 import static Paladin.PaladinMod.makeCardPath;
@@ -45,8 +50,8 @@ public class Prayer extends CustomCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new DexterityPower(p, this.magicNumber), this.magicNumber));
-
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new DexterityPower (p, this.magicNumber), this.magicNumber));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction (p, p, new LoseDexterityPower(p, this.magicNumber), this.magicNumber));
     }
 
     @Override
