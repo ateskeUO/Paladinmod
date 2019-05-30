@@ -80,5 +80,9 @@
   "PaladinMod:Prayer": {
     "NAME": "Prayer",
     "DESCRIPTION": "Gain !M! Dexterity until end of turn"
+  },
+  "PaladinMod:RighteousAnger": {
+    "NAME": "Righteous Anger",
+    "DESCRIPTION": "Deal !M! damage per devotion (Deals !D! Damage). NL Put a copy of this card into your discard pile"
   }
 }

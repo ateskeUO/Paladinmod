@@ -3,9 +3,6 @@ package Paladin.cards;
 
 import Paladin.PaladinMod;
 import Paladin.characters.Paladin;
-import basemod.BaseMod;
-import basemod.interfaces.PreMonsterTurnSubscriber;
-import basemod.patches.com.megacrit.cardcrawl.actions.GameActionManager.PreMonsterTurnHook;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;

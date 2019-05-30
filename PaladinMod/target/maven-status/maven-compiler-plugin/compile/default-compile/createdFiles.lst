@@ -12,6 +12,7 @@ Paladin\cards\PaladinSecondMagicNumberSkill.class
 Paladin\cards\Prayer.class
 Paladin\characters\Paladin.class
 Paladin\cards\PaladinUncommonPower.class
+Paladin\cards\RighteousAnger.class
 Paladin\cards\AbstractPaladinCard.class
 Paladin\orbs\SealOfLight.class
 Paladin\relics\Ashbringer.class

@@ -274,6 +274,7 @@ public class PaladinMod implements
         BaseMod.addCard(new HolySmite());
         BaseMod.addCard(new TemplarsVerdict());
         BaseMod.addCard(new Prayer());
+        BaseMod.addCard(new RighteousAnger());
 
         logger.info("Making sure the cards are unlocked.");
         // Unlock the cards
@@ -298,6 +299,7 @@ public class PaladinMod implements
         UnlockTracker.unlockCard(HolySmite.ID);
         UnlockTracker.unlockCard(TemplarsVerdict.ID);
         UnlockTracker.unlockCard(Prayer.ID);
+        UnlockTracker.unlockCard(RighteousAnger.ID);
 
         logger.info("Done adding cards!");
     }

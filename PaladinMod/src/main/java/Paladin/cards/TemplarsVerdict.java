@@ -9,6 +9,7 @@ package Paladin.cards;
         import com.megacrit.cardcrawl.actions.common.DamageAction;
         import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
         import com.megacrit.cardcrawl.cards.DamageInfo;
+        import com.megacrit.cardcrawl.cards.red.Whirlwind;
         import com.megacrit.cardcrawl.characters.AbstractPlayer;
         import com.megacrit.cardcrawl.core.CardCrawlGame;
         import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -57,37 +58,28 @@ public class TemplarsVerdict extends CustomCard {
 
     public TemplarsVerdict() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-
-
         baseDamage = DAMAGE;
-
         this.tags.add(BaseModCardTags.BASIC_STRIKE); //Tag your strike, defend and form (Shadow form, demon form, echo form, etc.) cards so that they function correctly.
         this.tags.add(CardTags.STRIKE);
-
         this.magicNumber = baseMagicNumber = MAGIC;
-
+        new Whirlwind();
     }
+
+
 
     @Override
     public void applyPowers() {
         int originalBaseDamage = this.baseDamage; //Track the original base damage.
-
         this.baseDamage = ACTIVATED_DAMAGE; //First set base damage to the damage when active; this will be used during calculation
         super.applyPowers(); //Calculate what the final result of this damage will be based on the player's powers
-
-        int activeDamage = this.damage; //Store the calculated result.
-
-
+        int activeDamage = this.damage; //Store the calculated result
         this.baseDamage = originalBaseDamage; //Set base damage back to the original base damage.
         super.applyPowers(); //Calculate the final damage for base damage.
-
-
         this.baseBlock = ACTIVATED_DAMAGE; //Store the active damage in card variables for display.
         this.block = activeDamage;
         this.isBlockModified = activeDamage != ACTIVATED_DAMAGE;
         //Note that card variables will only be automatically modified in applyPowers; there should be no issue using the block variables for this purpose. If this makes you uncomfortable though,
         //look up dynamic variables on the basemod wiki and use your own variables to store these values.
-
         //The final card description would be something like Deal !D! damage. NL If you have !M! or more Devotion, spend it and deal !B! instead.
     }
 
@@ -95,17 +87,11 @@ public class TemplarsVerdict extends CustomCard {
     public void calculateCardDamage(AbstractMonster mo) {
         //Same thing as applyPowers, but this calculation includes the target enemy's powers, such as Vulnerable. This is used when hovering on a target with a card.
         int originalBaseDamage = this.baseDamage;
-
         this.baseDamage = ACTIVATED_DAMAGE;
         super.calculateCardDamage(mo);
-
         int activeDamage = this.damage;
-
-
         this.baseDamage = originalBaseDamage;
         super.calculateCardDamage(mo);
-
-
         this.baseBlock = ACTIVATED_DAMAGE;
         this.block = activeDamage;
         this.isBlockModified = activeDamage != ACTIVATED_DAMAGE;
