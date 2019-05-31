@@ -93,5 +93,9 @@
     "NAME": "Judgement",
     "DESCRIPTION": "Deal 9 Damage. NL Evoke your seal. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Deal 9 Damage. NL Evoke your seal and rechannel it. NL Exhaust."
+  },
+  "PaladinMod:LayOnHands": {
+    "NAME": "Lay On Hands",
+    "DESCRIPTION": "Draw until your hand is full. NL Shuffle your discard pile into your deck. NL Heal 10. NL Exhaust."
   }
 }

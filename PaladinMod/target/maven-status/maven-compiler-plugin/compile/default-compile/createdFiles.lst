@@ -20,6 +20,7 @@ Paladin\cards\FaithInTheLight.class
 Paladin\patches\relics\BottledPlaceholderField.class
 Paladin\cards\WakeOfAshes.class
 Paladin\relics\PlaceholderRelic2.class
+Paladin\cards\LayOnHands.class
 Paladin\characters\Paladin$Enums.class
 Paladin\util\TextureLoader.class
 Paladin\relics\BottledPlaceholderRelic.class
