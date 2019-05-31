@@ -88,5 +88,10 @@
   "PaladinMod:Rebuke": {
     "NAME": "Rebuke",
     "DESCRIPTION": "Deal 12 Damage. NL Gain !M! Devotion."
+  },
+  "PaladinMod:Judgement": {
+    "NAME": "Judgement",
+    "DESCRIPTION": "Deal 9 Damage. NL Evoke your seal. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal 9 Damage. NL Evoke your seal and rechannel it. NL Exhaust."
   }
 }

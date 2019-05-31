@@ -42,6 +42,7 @@ Paladin\variables\PaladinCustomVariable.class
 Paladin\relics\PlaceholderRelic.class
 Paladin\events\IdentityCrisisEvent.class
 Paladin\cards\PaladinRarePower.class
+Paladin\cards\Judgement.class
 Paladin\cards\PaladinRareAttack.class
 Paladin\PaladinMod.class
 Paladin\cards\PaladinCommonPower.class

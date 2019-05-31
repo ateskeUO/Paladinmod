@@ -166,7 +166,7 @@ public class Paladin extends CustomPlayer {
         retVal.add(DefendPaladin.ID);
         retVal.add(TemplarsVerdict.ID);
         retVal.add(HolySmite.ID);
-        retVal.add(Rebuke.ID);
+        retVal.add(Judgement.ID);
 
 
 

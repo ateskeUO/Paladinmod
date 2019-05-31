@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2198793b-f26c-4895-9cfb-0fd5d1290518" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/PaladinMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/PaladinMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Rebuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Rebuke.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/characters/Paladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/characters/Paladin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PaladinMod/src/main/resources/PaladinModResources/localization/eng/PaladinMod-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/PaladinMod/src/main/resources/PaladinModResources/localization/eng/PaladinMod-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaladinMod/target/PaladinMod.jar" beforeDir="false" afterPath="$PROJECT_DIR$/PaladinMod/target/PaladinMod.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaladinMod/target/classes/Paladin/PaladinMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/PaladinMod/target/classes/Paladin/PaladinMod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaladinMod/target/classes/Paladin/characters/Paladin.class" beforeDir="false" afterPath="$PROJECT_DIR$/PaladinMod/target/classes/Paladin/characters/Paladin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaladinMod/target/classes/PaladinModResources/localization/eng/PaladinMod-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/PaladinMod/target/classes/PaladinModResources/localization/eng/PaladinMod-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaladinMod/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/PaladinMod/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaladinMod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/PaladinMod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/PaladinMod/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,67 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/RighteousAnger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2559#2560#0" expanded="true" />
-                <element signature="e#2602#2603#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Prayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/HolySmite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="102" column="129" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/characters/Paladin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="168" column="23" lean-forward="true" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
+            <state relative-caret-position="2329">
+              <caret line="165" column="37" lean-forward="true" selection-start-line="165" selection-start-column="37" selection-end-line="165" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Rebuke.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/resources/PaladinModResources/localization/eng/PaladinMod-Card-Strings.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+            <state relative-caret-position="260">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
@@ -93,11 +40,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/PaladinMod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4590">
-              <caret line="298" column="49" selection-start-line="298" selection-start-column="49" selection-end-line="298" selection-end-column="49" />
+            <state relative-caret-position="154">
+              <caret line="278" column="41" lean-forward="true" selection-start-line="278" selection-start-column="41" selection-end-line="278" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Judgement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-230">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/cards/blue/Recursion.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="32" column="66" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/defect/RedoAction.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/FaithInTheLight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="73" column="33" lean-forward="true" selection-start-line="73" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Rebuke.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/monsters/AbstractMonster.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -123,10 +130,11 @@
         <option value="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Prayer.java" />
         <option value="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/TemplarsVerdict.java" />
         <option value="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/RighteousAnger.java" />
-        <option value="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/PaladinMod.java" />
-        <option value="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/characters/Paladin.java" />
-        <option value="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Rebuke.java" />
         <option value="$PROJECT_DIR$/PaladinMod/src/main/resources/PaladinModResources/localization/eng/PaladinMod-Card-Strings.json" />
+        <option value="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/PaladinMod.java" />
+        <option value="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Rebuke.java" />
+        <option value="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Judgement.java" />
+        <option value="$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/characters/Paladin.java" />
       </list>
     </option>
   </component>
@@ -308,7 +316,7 @@
     <frame x="1912" y="140" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28267476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28267476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -330,7 +338,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.14589666" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.14589666" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -369,25 +377,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/PaladinRareAttack.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/OrbSkill.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/RighteousDuty.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PaladinMod/PaladinMod.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/util/TextureLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/relics/Ashbringer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -577,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/monsters/AbstractMonster.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="203" column="32" selection-start-line="203" selection-start-column="32" selection-end-line="203" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Steam/steamapps/workshop/content/646570/1605833019/BaseMod.jar!/basemod/BaseMod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31586">
@@ -680,23 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/PaladinMod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4590">
-          <caret line="298" column="49" selection-start-line="298" selection-start-column="49" selection-end-line="298" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/characters/Paladin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="168" column="23" lean-forward="true" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Prayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -714,20 +679,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Rebuke.java">
+    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/resources/PaladinModResources/localization/eng/PaladinMod-Card-Strings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="260">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/rooms/AbstractRoom.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/monsters/AbstractMonster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/PaladinMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="278" column="41" lean-forward="true" selection-start-line="278" selection-start-column="41" selection-end-line="278" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/resources/PaladinModResources/localization/eng/PaladinMod-Card-Strings.json">
+    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Rebuke.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        <state relative-caret-position="229">
+          <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/FaithInTheLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="73" column="33" lean-forward="true" selection-start-line="73" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/defect/RedoAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/cards/blue/Recursion.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/cards/Judgement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaladinMod/src/main/java/Paladin/characters/Paladin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="165" column="37" lean-forward="true" selection-start-line="165" selection-start-column="37" selection-end-line="165" selection-end-column="37" />
         </state>
       </provider>
     </entry>

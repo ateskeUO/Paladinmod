@@ -276,6 +276,7 @@ public class PaladinMod implements
         BaseMod.addCard(new Prayer());
         BaseMod.addCard(new RighteousAnger());
         BaseMod.addCard(new Rebuke());
+        BaseMod.addCard(new Judgement());
 
         logger.info("Making sure the cards are unlocked.");
         // Unlock the cards
@@ -302,6 +303,7 @@ public class PaladinMod implements
         UnlockTracker.unlockCard(Prayer.ID);
         UnlockTracker.unlockCard(RighteousAnger.ID);
         UnlockTracker.unlockCard(Rebuke.ID);
+        UnlockTracker.unlockCard(Judgement.ID);
 
         logger.info("Done adding cards!");
     }

@@ -42,6 +42,8 @@ public class Rebuke extends CustomCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+
+
         AbstractDungeon.actionManager.addToBottom( new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn)));
         AbstractDungeon.actionManager.addToBottom( new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new DevotionPower(p, this.magicNumber), this.magicNumber));
     }
