@@ -22,6 +22,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.relics.Sling;
 
 import static Paladin.PaladinMod.makeCardPath;
 
@@ -44,7 +45,7 @@ public class LayOnHands extends CustomCard {
     private static final int HEAL_AMT = 10;
 
 
-
+    Sling;
 
     public LayOnHands() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
