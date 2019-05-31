@@ -45,7 +45,7 @@ public class LayOnHands extends CustomCard {
     private static final int HEAL_AMT = 10;
 
 
-    Sling;
+
 
     public LayOnHands() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
