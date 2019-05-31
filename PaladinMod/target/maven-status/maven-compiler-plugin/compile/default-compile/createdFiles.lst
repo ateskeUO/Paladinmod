@@ -30,6 +30,7 @@ Paladin\variables\PaladinSecondMagicNumber.class
 Paladin\cards\OrbSkill.class
 Paladin\orbs\SealOfJustice.class
 Paladin\actions\UncommonPowerAction.class
+Paladin\cards\Rebuke.class
 Paladin\potions\PlaceholderPotion.class
 Paladin\cards\cardTemplate.class
 Paladin\cards\PaladinUncommonAttack.class

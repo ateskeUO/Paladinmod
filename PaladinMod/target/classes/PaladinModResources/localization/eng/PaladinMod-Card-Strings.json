@@ -83,6 +83,10 @@
   },
   "PaladinMod:RighteousAnger": {
     "NAME": "Righteous Anger",
-    "DESCRIPTION": "Deal !M! damage per devotion (Deals !D! Damage). NL Put a copy of this card into your discard pile"
+    "DESCRIPTION": "Deal !M! damage per devotion (Deals !D! Damage). NL Put a copy of this card into your discard pile."
+  },
+  "PaladinMod:Rebuke": {
+    "NAME": "Rebuke",
+    "DESCRIPTION": "Deal 12 Damage. NL Gain 1 Devotion."
   }
 }
