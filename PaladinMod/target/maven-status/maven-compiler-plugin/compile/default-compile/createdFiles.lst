@@ -45,5 +45,6 @@ Paladin\events\IdentityCrisisEvent.class
 Paladin\cards\PaladinRarePower.class
 Paladin\cards\Judgement.class
 Paladin\cards\PaladinRareAttack.class
+Paladin\cards\SentinelStance.class
 Paladin\PaladinMod.class
 Paladin\cards\PaladinCommonPower.class
