@@ -101,5 +101,9 @@
   "PaladinMod:SentinelStance": {
     "NAME": "Sentinel Stance",
     "DESCRIPTION": "Gain !B! block. NL Valiance - Gain !M! plated armor."
+  },
+  "PaladinMod:BlindingLight": {
+    "NAME": "Blinding Light",
+    "DESCRIPTION": "All Enemies gain !M! weak. NL Gain !M! devotion. NL Draw a card."
   }
 }

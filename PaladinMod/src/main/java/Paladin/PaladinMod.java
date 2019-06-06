@@ -279,6 +279,7 @@ public class PaladinMod implements
         BaseMod.addCard(new Judgement());
         BaseMod.addCard(new LayOnHands());
         BaseMod.addCard(new SentinelStance());
+        BaseMod.addCard(new BlindingLight());
 
         logger.info("Making sure the cards are unlocked.");
         // Unlock the cards
@@ -308,6 +309,7 @@ public class PaladinMod implements
         UnlockTracker.unlockCard(Judgement.ID);
         UnlockTracker.unlockCard(LayOnHands.ID);
         UnlockTracker.unlockCard(SentinelStance.ID);
+        UnlockTracker.unlockCard(BlindingLight.ID);
 
         logger.info("Done adding cards!");
     }
