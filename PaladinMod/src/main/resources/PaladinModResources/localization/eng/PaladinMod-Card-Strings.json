@@ -113,7 +113,14 @@
   },
   "PaladinMod:BlessingOfKings": {
     "NAME": "Blessing of Kings",
-    "DESCRIPTION": "Gain !M! Strength and Dexterity. Exhaust."
-
+    "DESCRIPTION": "Gain !M! Strength and Dexterity. NL Exhaust."
+  },
+  "PaladinMod:FlashOfLight": {
+    "NAME": "Flash of Light",
+    "DESCRIPTION": "Gain !M! Life. NL Draw !M! Cards. NL Exhaust."
+  },
+  "PaladinMod:CrusadersJudgement": {
+    "NAME": "Crusader's Judgement",
+    "DESCRIPTION": "Draw !M! Cards. NL Deal damage equal to the number of cards in your hand( !D! )"
   }
 }
