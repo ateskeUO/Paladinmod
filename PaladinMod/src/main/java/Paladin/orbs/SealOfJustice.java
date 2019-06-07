@@ -19,6 +19,7 @@ import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.OrbStrings;
 import com.megacrit.cardcrawl.orbs.AbstractOrb;
+import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.vfx.combat.DarkOrbActivateEffect;
 import com.megacrit.cardcrawl.vfx.combat.DarkOrbPassiveEffect;
 import com.megacrit.cardcrawl.vfx.combat.OrbFlareEffect;
@@ -70,8 +71,14 @@ public class SealOfJustice extends AbstractOrb {
 
     @Override
     public void applyFocus() {
-        passiveAmount = basePassiveAmount;
-        evokeAmount = baseEvokeAmount;
+        AbstractPower power = AbstractDungeon.player.getPower("Focus");
+        if (power != null && !this.ID.equals("Plasma")) {
+            this.passiveAmount = Math.max(0, this.basePassiveAmount + power.amount);
+            this.evokeAmount = Math.max(0, this.baseEvokeAmount + power.amount);
+        } else {
+            this.passiveAmount = this.basePassiveAmount;
+            this.evokeAmount = this.baseEvokeAmount;
+        }
     }
 
     @Override
