@@ -6,6 +6,7 @@ Paladin\cards\JusticeForAll.class
 Paladin\relics\PaladinClickableRelic.class
 Paladin\orbs\SealOfRighteousness.class
 Paladin\powers\CommonPower.class
+Paladin\cards\BlessingOfWisdom.class
 Paladin\actions\TemplarsVerdictAction.class
 Paladin\cards\PaladinRareSkill.class
 Paladin\cards\PaladinSecondMagicNumberSkill.class

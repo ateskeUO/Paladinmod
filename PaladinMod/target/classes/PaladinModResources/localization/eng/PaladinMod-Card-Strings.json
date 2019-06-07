@@ -105,5 +105,10 @@
   "PaladinMod:BlindingLight": {
     "NAME": "Blinding Light",
     "DESCRIPTION": "All Enemies gain !M! weak. NL Gain !M! devotion. NL Draw a card."
+  },
+  "PaladinMod:BlessingOfWisdom": {
+    "NAME": "Blessing of Wisdom",
+    "DESCRIPTION": "Gain 3 Focus. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain 3 Focus."
   }
 }
