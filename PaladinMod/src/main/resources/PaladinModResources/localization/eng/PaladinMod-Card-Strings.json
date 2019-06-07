@@ -110,5 +110,10 @@
     "NAME": "Blessing of Wisdom",
     "DESCRIPTION": "Gain 3 Focus. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Gain 3 Focus."
+  },
+  "PaladinMod:BlessingOfKings": {
+    "NAME": "Blessing of Kings",
+    "DESCRIPTION": "Gain !M! Strength and Dexterity. Exhaust."
+
   }
 }

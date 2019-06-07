@@ -29,6 +29,7 @@ Paladin\powers\RarePower.class
 Paladin\cards\PaladinUncommonSkill.class
 Paladin\cards\DefendPaladin.class
 Paladin\variables\PaladinSecondMagicNumber.class
+Paladin\cards\BlessingOfKings.class
 Paladin\cards\OrbSkill.class
 Paladin\orbs\SealOfJustice.class
 Paladin\actions\UncommonPowerAction.class

@@ -281,6 +281,7 @@ public class PaladinMod implements
         BaseMod.addCard(new SentinelStance());
         BaseMod.addCard(new BlindingLight());
         BaseMod.addCard(new BlessingOfWisdom());
+        BaseMod.addCard(new BlessingOfKings());
 
         logger.info("Making sure the cards are unlocked.");
         // Unlock the cards
@@ -312,6 +313,7 @@ public class PaladinMod implements
         UnlockTracker.unlockCard(SentinelStance.ID);
         UnlockTracker.unlockCard(BlindingLight.ID);
         UnlockTracker.unlockCard(BlessingOfWisdom.ID);
+        UnlockTracker.unlockCard(BlessingOfKings.ID);
 
         logger.info("Done adding cards!");
     }
