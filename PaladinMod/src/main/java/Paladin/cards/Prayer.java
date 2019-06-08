@@ -22,7 +22,7 @@ public class Prayer extends CustomCard {
     //Card text variable declarations
     public static final String ID = PaladinMod.makeID("Prayer");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
-    public static final String IMG = makeCardPath("WakeOfAshes.png");
+    public static final String IMG = makeCardPath("Prayer.png");
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
 

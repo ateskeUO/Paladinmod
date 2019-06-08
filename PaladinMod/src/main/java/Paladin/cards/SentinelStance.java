@@ -26,7 +26,7 @@ public class SentinelStance extends CustomCard {
     public static final String ID = PaladinMod.makeID("SentinelStance");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    public static final String IMG = makeCardPath("WakeOfAshes.png");
+    public static final String IMG = makeCardPath("SentinelStance.png");
 
 
     public static final String NAME = cardStrings.NAME;
