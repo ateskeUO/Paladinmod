@@ -16,9 +16,9 @@ import static Paladin.PaladinMod.makeCardPath;
 public class SentinelStance extends CustomCard {
 
     /*
-     * Gain 7 block.
-     *
-     * Valiance - Gain 2 (5) plated armor.
+     * Sentinel Stance - 1
+     * Common
+     * Gain 7 block. Valiance - Gain 2 (5) plated armor.
      */
 
     // TEXT DECLARATION
@@ -37,7 +37,7 @@ public class SentinelStance extends CustomCard {
 
     // STAT DECLARATION
 
-    private static final CardRarity RARITY = CardRarity.BASIC;
+    private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final CardType TYPE = CardType.SKILL;
     public static final CardColor COLOR = Paladin.Enums.COLOR_GRAY;

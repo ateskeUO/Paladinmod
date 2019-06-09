@@ -15,6 +15,11 @@ import com.megacrit.cardcrawl.powers.StrengthPower;
 
 import static Paladin.PaladinMod.makeCardPath;
 
+/*
+Blessing of Kings - 2
+Uncommon Skill
+Gain 2(4) dexterity and Strength
+*/
 public class BlessingOfKings extends CustomCard {
 
     public static final String ID = PaladinMod.makeID("BlessingOfKings");

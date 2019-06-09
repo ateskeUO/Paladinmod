@@ -18,9 +18,10 @@ import static Paladin.PaladinMod.makeCardPath;
 public class JusticeForAll extends CustomCard {
 
     /*
-     * Remove your seal.
-     *
-     * Channel 1 Seal of Righteousness.
+     * Justice For All - 1
+     * Uncommon Skill
+     * Remove your current seal. Channel 1 Seal of Justice. Exhaust.
+     * (Upgrade: Do not remove your current seal.)
      */
 
     // TEXT DECLARATION

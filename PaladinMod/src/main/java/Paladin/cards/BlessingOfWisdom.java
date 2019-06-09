@@ -17,6 +17,12 @@ import static Paladin.PaladinMod.makeCardPath;
 
 public class BlessingOfWisdom extends CustomCard {
 
+    /*
+    Blessing of Wisdom - 2
+    Uncommon Skill
+    Gain 3 focus. Exhaust (Remove Exhaust)
+    */
+
     //Card text variable declarations
     public static final String ID = PaladinMod.makeID("BlessingOfWisdom");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);

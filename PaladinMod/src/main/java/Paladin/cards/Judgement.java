@@ -20,6 +20,11 @@ import static Paladin.PaladinMod.makeCardPath;
 
 public class Judgement extends CustomCard {
 
+    /*
+    Judgement - 2
+    Uncommon Attack
+    Deal 9 damage. Evoke your seal. Exhaust. (Upgrade: Rechannel the orb)
+    */
 
     public static final String ID = PaladinMod.makeID("Judgement");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);

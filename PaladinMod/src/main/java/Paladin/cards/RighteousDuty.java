@@ -18,9 +18,10 @@ import static Paladin.PaladinMod.makeCardPath;
 public class RighteousDuty extends CustomCard {
 
     /*
-     * Remove your seal.
-     *
-     * Channel 1 Seal of Righteousness.
+     * Righteous Duty - 1
+     * Uncommon Skill
+     * Remove your seal. Channel 1 Seal of Righteousness. Exhaust.
+     * (Upgrade: Do not remove your seal).
      */
 
     // TEXT DECLARATION

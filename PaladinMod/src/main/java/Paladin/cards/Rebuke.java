@@ -18,6 +18,12 @@ import static Paladin.PaladinMod.makeCardPath;
 
 public class Rebuke extends CustomCard {
 
+    /*
+    Rebuke - 1
+    Common Attack
+    Deal 12 damage, gain 1(2) devotion.
+    */
+
     //Card text variable declarations
     public static final String ID = PaladinMod.makeID("Rebuke");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);

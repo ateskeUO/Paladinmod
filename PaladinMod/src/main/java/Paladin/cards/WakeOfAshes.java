@@ -22,9 +22,9 @@ import static Paladin.PaladinMod.makeCardPath;
 
 public class WakeOfAshes extends CustomCard {
     /*
-     * Deal 15 Damage
-     *
-     * Gain 5 Devotion
+     * Wake of Ashes
+     * Rare Attack
+     * Deal 15 Damage. Gain 5 Devotion
      */
 
     // TEXT DECLARATION

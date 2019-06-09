@@ -19,9 +19,9 @@ import static Paladin.PaladinMod.makeCardPath;
 public class HolySmite extends CustomCard {
 
     /*
-     * Wiki-page: https://github.com/daviscook477/BaseMod/wiki/Custom-Cards
-     *
-     * Strike Deal 7(9) damage.
+     * Holy Smite - 1
+     * Starter Attack
+     * Deal 5(7) damage. Gain 1(2) Devotion. Apply 1(2) Weak.
      */
 
     // TEXT DECLARATION
@@ -30,12 +30,6 @@ public class HolySmite extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
     public static final String IMG = makeCardPath("HolySmite.png");
-    // Setting the image as as easy as can possibly be now. You just need to provide the image name
-    // and make sure it's in the correct folder. That's all.
-    // There's makeCardPath, makeRelicPath, power, orb, event, etc..
-    // The list of all of them can be found in the main PaladinMod.java file in the
-    // ==INPUT TEXTURE LOCATION== section under ==MAKE IMAGE PATHS==
-
 
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
@@ -54,24 +48,14 @@ public class HolySmite extends CustomCard {
     private static final int DAMAGE = 5;
     private static final int UPGRADE_PLUS_DMG = 2;
 
-
-
-    // Hey want a second damage/magic/block/unique number??? Great!
-    // Go check out PaladinAttackWithVariable and Paladin.variable.PaladinCustomVariable
-    // that's how you get your own custom variable that you can use for anything you like.
-    // Feel free to explore other mods to see what variabls they personally have and create your own ones.
-
     // /STAT DECLARATION/
 
     public HolySmite() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
 
-        // Aside from baseDamage/MagicNumber/Block there's also a few more.
-        // Just type this.base and let intelliJ auto complete for you, or, go read up AbstractCard
-
         baseDamage = DAMAGE;
 
-        this.tags.add(BaseModCardTags.BASIC_STRIKE); //Tag your strike, defend and form (Shadow form, demon form, echo form, etc.) cards so that they function correctly.
+        this.tags.add(BaseModCardTags.BASIC_STRIKE);
         this.tags.add(CardTags.STRIKE);
 
         this.baseMagicNumber = 1;
@@ -81,19 +65,9 @@ public class HolySmite extends CustomCard {
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom( // The action managed queues all the actions a card should do.
-                // addToTop - first
-                // addToBottom - last
-                // 99.99% of the time you just want to addToBottom all of them.
-                // Please do that unless you need to add to top for some specific reason.
+        AbstractDungeon.actionManager.addToBottom(
                 new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn),
-                        // a list of existing actions can be found at com.megacrit.cardcrawl.actions but
-                        // Chances are you'd instead look at "hey my card is similar to this basegame card"
-                        // Let's find out what action *it* uses.
-                        // I.e. i want energy gain or card draw, lemme check out Adrenaline
-                        // P.s. if you want to damage ALL enemies OUTSIDE of a card, check out the custom orb.
-                        AbstractGameAction.AttackEffect.SLASH_HORIZONTAL)); // The animation the damage action uses to hit.
-
+                        AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
         AbstractDungeon.actionManager.addToBottom(
                 new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(
                         m, p, new com.megacrit.cardcrawl.powers.WeakPower(m, this.magicNumber, false), this.magicNumber));

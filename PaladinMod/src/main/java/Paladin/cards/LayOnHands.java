@@ -15,6 +15,12 @@ import static Paladin.PaladinMod.makeCardPath;
 
 public class LayOnHands extends CustomCard {
 
+    /*
+    Lay On Hands - 4(1)
+    Rare Skill
+    Draw your deck. Heal 10. Exhaust.
+    */
+
     public static final String ID = PaladinMod.makeID("LayOnHands");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String IMG = makeCardPath("LayOnHands.png");

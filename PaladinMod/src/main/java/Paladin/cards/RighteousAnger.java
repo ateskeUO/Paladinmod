@@ -22,6 +22,12 @@ import static Paladin.PaladinMod.makeCardPath;
 
 public class RighteousAnger extends CustomCard {
 
+    /*
+    Righteous Anger - 0
+    Common Attack
+    Deal 2(3) damage per devotion. Put a copy of this into your discard pile.
+    */
+
     //Card text variable declarations
     public static final String ID = PaladinMod.makeID("RighteousAnger");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);

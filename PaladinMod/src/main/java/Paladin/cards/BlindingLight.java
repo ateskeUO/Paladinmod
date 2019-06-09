@@ -19,6 +19,12 @@ import static Paladin.PaladinMod.makeCardPath;
 
 public class BlindingLight extends CustomCard {
 
+    /*
+    Blinding Light - 1
+    Common Skill
+    All enemies get 1(2) weak, Gain 1(2) devotion. Draw a card.
+    */
+
     public static final String ID = PaladinMod.makeID("BlindingLight");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String IMG = makeCardPath("BlindingLight.png");

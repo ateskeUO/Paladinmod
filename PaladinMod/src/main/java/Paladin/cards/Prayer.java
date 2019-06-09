@@ -19,6 +19,12 @@ import static Paladin.PaladinMod.makeCardPath;
 
 public class Prayer extends CustomCard {
 
+    /*
+    Prayer - 0
+    Common Skill
+    Gain +2(4) dexterity until end of turn.
+     */
+
     //Card text variable declarations
     public static final String ID = PaladinMod.makeID("Prayer");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
@@ -39,10 +45,6 @@ public class Prayer extends CustomCard {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.magicNumber = this.baseMagicNumber = DEX;
     }
-
-
-
-
 
 
     @Override

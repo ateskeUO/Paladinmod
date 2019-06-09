@@ -19,6 +19,12 @@ import static Paladin.PaladinMod.makeCardPath;
 
 public class FlashOfLight extends CustomCard {
 
+    /*
+    Flash of Light - 0
+    Rare Skill
+    Heal 2(3). Draw 2(3) cards. Exhaust.
+    */
+
     public static final String ID = PaladinMod.makeID("FlashOfLight");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String IMG = makeCardPath("FlashOfLight.png");

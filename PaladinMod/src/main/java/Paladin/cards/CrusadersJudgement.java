@@ -19,6 +19,12 @@ import static Paladin.PaladinMod.makeCardPath;
 
 public class CrusadersJudgement extends CustomCard {
 
+    /*
+    Crusader's Judgement - 1
+    Uncommon Attack
+    Draw 1(2) card(s), then deal damage equal to the number of cards in your hand.
+    */
+
 
     public static final String ID = PaladinMod.makeID("CrusadersJudgement");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
