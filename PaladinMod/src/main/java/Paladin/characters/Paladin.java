@@ -101,7 +101,7 @@ public class Paladin extends CustomPlayer {
         super(name, setClass, orbTextures,
                 "PaladinModResources/images/char/PaladinCharacter/orb/vfx.png", null,
                 new SpriterAnimation(
-                        "PaladinModResources/images/char/PaladinCharacter/Spriter/PaladinAnimation.scml"));
+                        "PaladinModResources/images/char/PaladinCharacter/Spriter/TirionAnimationSprite.scml"));
 
 
         // =============== TEXTURES, ENERGY, LOADOUT =================  
@@ -125,7 +125,7 @@ public class Paladin extends CustomPlayer {
         AnimationState.TrackEntry e = state.setAnimation(0, "animation", true);
         e.setTime(e.getEndTime() * MathUtils.random());
 
-        // =============== /ANIMATIONS/ =================
+        //  =============== /ANIMATIONS/ =================
 
 
         // =============== TEXT BUBBLE LOCATION =================
