@@ -122,5 +122,9 @@
   "PaladinMod:CrusadersJudgement": {
     "NAME": "Crusader's Judgement",
     "DESCRIPTION": "Draw !M! Cards. NL Deal damage equal to the number of cards in your hand( !D! )"
+  },
+  "PaladinMod:BlessedBreastplate": {
+    "NAME": "Blessed Breastplate",
+    "DESCRIPTION": "Gain !B! block. Gain 1 Devotion"
   }
 }
