@@ -126,5 +126,13 @@
   "PaladinMod:BlessedBreastplate": {
     "NAME": "Blessed Breastplate",
     "DESCRIPTION": "Gain !B! block. Gain 1 Devotion"
+  },
+  "PaladinMod:DivineStorm": {
+    "NAME": "Divine Storm",
+    "DESCRIPTION": "Deal !D! damage.  Spend all Devotion and add a free copy of this card for each Devotion spent. (They will exhaust when played)"
+  },
+  "PaladinMod:ContemplativeMedicine": {
+    "NAME": "Contemplative Medicine",
+    "DESCRIPTION": "Spend all Devotion.  Gain focus equal to Devotion spent.  Exhaust."
   }
 }

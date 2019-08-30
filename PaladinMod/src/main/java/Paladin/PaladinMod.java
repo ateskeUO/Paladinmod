@@ -285,6 +285,8 @@ public class PaladinMod implements
         BaseMod.addCard(new FlashOfLight());
         BaseMod.addCard(new CrusadersJudgement());
         BaseMod.addCard(new BlessedBreastplate());
+        BaseMod.addCard(new DivineStorm());
+        BaseMod.addCard(new ContemplativeMedicine());
 
         logger.info("Making sure the cards are unlocked.");
         // Unlock the cards
@@ -320,6 +322,8 @@ public class PaladinMod implements
         UnlockTracker.unlockCard(FlashOfLight.ID);
         UnlockTracker.unlockCard(CrusadersJudgement.ID);
         UnlockTracker.unlockCard(BlessedBreastplate.ID);
+        UnlockTracker.unlockCard(DivineStorm.ID);
+        UnlockTracker.unlockCard(ContemplativeMedicine.ID);
 
         logger.info("Done adding cards!");
     }
